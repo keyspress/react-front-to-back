@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header';
-import Contact from './components/Contact';
+import Contacts from './components/Contacts';
 
 class App extends Component {
   render() {
@@ -11,16 +11,7 @@ class App extends Component {
       <div className="App">
         <Header branding="Contact Manager" />
         <div className="container">
-          <Contact
-            name="John Doe"
-            email="jdoe@gmail.com"
-            phone="555-555-5555"
-          />
-          <Contact
-            name="Karen Smith"
-            email="karen@gmail.com"
-            phone="444-444-5555"
-          />
+          <Contacts />
         </div>
       </div>
     );
